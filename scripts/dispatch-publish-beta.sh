@@ -7,7 +7,7 @@
 
 ## Before running, configure the following params:
 # Github repo
-REPO=calintamas/react-native-toast-message
+REPO=naveene1/react-native-toast-message
 # Github username of the user triggering the workflow
 USERNAME=naveene1
 # Branch from which the workflow will run
