@@ -8,4 +8,4 @@ export declare type ToastUIProps = {
     hide: (params: ToastHideParams) => void;
     config?: ToastConfig;
 };
-export declare function ToastUI(props: ToastUIProps): JSX.Element;
+export declare function ToastUI(props: ToastUIProps): JSX.Element | null;

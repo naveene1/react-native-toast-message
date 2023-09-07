@@ -66,7 +66,7 @@ function renderComponent({
 export function ToastUI(props: ToastUIProps) {
   const { isVisible, options, hide } = props;
   const { position, topOffset, bottomOffset, keyboardOffset } = options;
-
+  if(!isVisible) return null;
   return (
     <AnimatedContainer
       isVisible={isVisible}
