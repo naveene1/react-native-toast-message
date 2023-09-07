@@ -60,8 +60,8 @@ jobs:
       - name: Build
         run: yarn build
 
-      - id: publish
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          tag: 'beta'
+      # - id: publish
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     tag: 'beta'
