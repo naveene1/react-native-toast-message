@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "build": "rm -rf ./lib && tsc",
+    "build": "tsc",
     "prettier": "./node_modules/.bin/prettier --write",
     "lint": "./node_modules/.bin/eslint --fix",
     "lint-staged": "./node_modules/.bin/lint-staged",
